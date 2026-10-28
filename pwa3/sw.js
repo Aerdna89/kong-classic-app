@@ -1,7 +1,7 @@
 /* Kong 3+2 – service worker (cache-first, offline) */
 // prefisso diverso da 'kong-': il service worker dell'app Kong Classic cancella le cache che iniziano con 'kong-'
 const CACHE_PREFIX = 'k3p2-';
-const CACHE_VERSION = CACHE_PREFIX + 'v1-2026-10-28';
+const CACHE_VERSION = CACHE_PREFIX + 'v2-2026-10-28';
 const ASSETS = [
   './',
   './index.html',
